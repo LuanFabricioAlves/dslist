@@ -15,7 +15,7 @@ public class GameDTO {
 	}
 
 	public GameDTO(Game entity) {
-		ID = entity.getID();
+		ID = entity.getId();
 		title = entity.getTitle();
 		year = entity.getYear();
 		imgUrl = entity.getImgUrl();
